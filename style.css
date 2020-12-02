@@ -1,0 +1,253 @@
+.main1 {
+    max-width: 100%;
+    min-width: 100%;
+    background-color: gray; 
+  background-image: linear-gradient(#aafd6e, white);
+  }
+.navigationBar {
+    min-width: 100%;
+    min-height: 2%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background: white; 
+
+  }
+.navigationBar a {
+    font-family: Helvetica;
+    font-size: 0.9375em;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0.5em;
+  }
+.navigationBar a:active {
+    background: #265301;
+    color: red;
+  }
+.navigationBar a:hover {
+    border-bottom: 1px solid;     
+    background: #4daa0a;
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  .navButtons{
+margin-left: 5%;
+
+  }
+.name1 {
+    display: inline-block;
+    position: absolute;
+    margin: 30px 0px 0 5px;
+    top: 350px;
+    left: 5%;
+    font-size: 25;
+    
+  }
+  .projectsTitle {
+    display: inline-block;
+    position: absolute;
+    margin: 30px 0px 0 5px;
+    top: 50px;
+    left: 5%;
+    font-size: 25;
+    
+  }
+  .repostoryLinks{
+    display: inline-block;
+    position: absolute;
+    margin: 31px 0px 0 28px;
+    top: 100px;
+    left: 5%;
+    height: 500px;
+    width: 1142px;
+  }
+  .repositoryLinkIndividual {
+    height: 80px;
+    width: 1142px;
+  }
+  .repostoryLinks a {
+    font-family: Helvetica;
+    font-size: 0.9375em;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0.5em;
+  }
+  .contactsPage {
+    display: inline-block;
+    position: absolute;
+    height: 720px;
+    width: 1280px;
+    color: White;
+  }
+  .contactsHeader {
+    display: inline-block;
+    position: absolute;
+    margin: 30px 0px 0 5px;
+    top: 215px;
+    left: 14%;
+    width: 850px;
+    font-family: Helvetica;
+    font-size: 1.9375em;
+    text-decoration: none;
+    padding: 0.5em 0.5em;
+    
+  }
+  .contactsHeader a {
+    text-decoration: none;
+    color: white;
+    
+  }
+  .contactsHeader a:hover {
+    text-decoration: none;
+    color: blue;
+  }
+  .facebookLink{
+    height: 30px;
+    width: 60px;
+    margin-left: 330px;
+  }
+  .discordText{
+    margin-left: 240px;
+  }
+  .phoneText{
+    margin-left: 237px;
+}
+.emailText{
+  margin-left: 170px;
+}
+  
+.foto {
+    position: relative;
+    height: 341px;
+    width: 1142px;
+    display: inline-block;
+    left: 5%;
+
+  }
+  .avatar {
+    position: absolute;
+    height: 132px;
+    width: 132px;
+    display: inline-block;
+    margin-left: 110px;
+    border-radius: 100px;
+  }
+.description{
+    display: inline-block;
+    position: absolute;
+    margin: 31px 0px 0 28px;
+    top: 500px;
+    left: 5%;
+  }
+  .descriptionGallery{
+    display: inline-block;
+    position: relative;
+    margin: 31px 0px 0 28px;
+    top: 500px;
+    left: 5%;
+  }
+* {margin: 0; padding: 0;}
+
+ 
+#container {
+ width: 1000px;
+ overflow: hidden;
+ margin: 50px auto;
+ background: white;
+position: absolute;
+left: 5%;
+}
+
+header {
+width: 800px;
+margin: 40px auto;
+}
+    
+header h1 {
+text-align: center;
+font: 100 60px/1.5 Helvetica, Verdana, sans-serif;  
+}
+.photobanner {
+    height: 467px;
+    width: 3550px;
+    margin-bottom: 80px;
+   }
+.photobanner img{
+    height: 467px;
+    width: 350px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+   }
+    
+   .photobanner img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+   }
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+   }
+    
+   @keyframes bannermove {
+    0% {
+       margin-left: 0px;
+    }
+    100% {
+       margin-left: -2125px;
+    }
+    
+   }
+    
+   @-moz-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-webkit-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-ms-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   }
+    
+   @-o-keyframes bannermove {
+    0% {
+      margin-left: 0px;
+    }
+    100% {
+      margin-left: -2125px;
+    }
+    
+   } 
